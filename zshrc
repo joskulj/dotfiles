@@ -17,7 +17,7 @@ export DISABLE_AUTO_UPDATE="true"
 # export DISABLE_LS_COLORS="true"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
-plugins=(dirpersist git osx brew npm rvm ruby gem redis-cli)
+plugins=(debian dirpersist git)
 
 # Locale settings (utf-8)
 export LC_CTYPE=en_US.UTF-8

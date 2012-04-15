@@ -35,7 +35,7 @@ source $ZSH/oh-my-zsh.sh
 # ============== Custom tweaks below this line ============== 
 
 # Aliases
-source $HOME/.zsh-aliases
+source $HOME/.zsh-alias
 
 #History Settings
 HISTFILE=~/.zsh_history

@@ -1,0 +1,13 @@
+# GMail Account
+set realname="User Name"
+set from=user.name@googlemail.com
+set hostname=googlemail.com
+set folder="imaps://user.name@imap.googlemail.com/"
+set postponed="=[Google Mail]/Entwürfe"
+set record="=[Google Mail]/Gesendet"
+set trash="=[Google Mail]/Papierkorb"
+set spoolfile="=INBOX"
+set imap_pass="geheim"
+set mail_check=900
+
+

@@ -1,0 +1,40 @@
+# Account
+source "~/.mutt/gmail"
+
+# Options
+set sendmail="/usr/bin/msmtp"
+set envelope_from=yes 
+set edit_hdrs 
+set signature ="~/.mutt/signature"
+set attribution="%f schrieb am %d:"
+set sort=threads
+set sort_aux=date-sent
+set sort=date
+unset allow_8bit
+set date_format="%a, %d. %b %H:%M"
+set index_format="%4C %Z %D %-22.22F (%?l?%4l&%4c?) %s"
+set folder_format="%2C %8s %d %t %N %f"
+set pager_index_lines=10
+set editor="vim +8"
+
+macro   generic     <ESC>1  ":source ~/.mutt/maildir\n"  "maildir"
+
+# Colors for White Background
+color    hdrdefault    blue            default   
+color    quoted        red             default   
+color    signature     brightblack     default   
+color    indicator     brightwhite     red
+color    attachment    black           default
+color    error         red             default   
+color    message       black           default   
+color    search        brightwhite     magenta
+color    status        brightyellow    blue
+color    tree          red             default   
+color    normal        black           default   
+color    tilde         green           default   
+color    bold          brightyellow    default   
+color    markers       red             default
+
+# Aliases
+alias Anna Anna Siegberg <annasinpyjamas@googlemail.com>
+alias Büro Jochen Skulj <Jochen.Skulj@zka.bfinv.de>

@@ -1,0 +1,5 @@
+# maildir configuration
+set folder = ~/.mail
+source ~/.mutt/muttmailboxes
+set spoolfile = +"strato/INBOX"
+

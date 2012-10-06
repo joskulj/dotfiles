@@ -1,0 +1,31 @@
+[general]
+
+metadata = ~/.offlineimap
+accounts = strato
+maxsyncaccounts = 1
+socktimeout = 60
+ui = Basic
+
+[mbnames]
+enabled = yes
+filename = ~/.mutt/muttmailboxes
+header = "mailboxes "
+peritem = "+%(accountname)s/%(foldername)s"
+sep = " "
+footer = "\n"
+
+[Account strato]
+localrepository = local-strato
+remoterepository = remote-strato
+
+[Repository local-strato]
+type = Maildir
+localfolders = ~/.mail/strato
+
+[Repository remote-strato]
+type = IMAP
+maxconnections = 2
+remotehost = imap.strato.de
+remoteuser = user@domain.org
+remotepass = geheim
+realdelete = no

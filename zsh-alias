@@ -1,3 +1,8 @@
 alias gpush="git push -u origin master"
 alias gpull="git pull"
 alias v="gvim -font 'Monospace 11'"
+alias web="google-chrome&"
+alias gmail="/home/joskulj/bin/gmail.sh"
+alias smail="/home/joskulj/bin/smail.sh"
+alias bye="gnome-session-quit --power-off"
+
